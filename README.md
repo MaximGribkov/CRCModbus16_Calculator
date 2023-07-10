@@ -2,7 +2,7 @@
 CRC 16 Modbus
 
 Function usage example:
-
+```
 // device address Modbus
 	address := byte(0x02)
 
@@ -22,3 +22,4 @@ Function usage example:
 
 // CRC-16
 	crc := CalculateCRC(packet)
+```
